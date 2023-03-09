@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rysanek.customviews.ColorConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.MainMenuFragment">
+
+    <com.rysanek.customviews.ColorConstraintLayout
+        android:id="@+id/clClockedIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:visibility="gone"
+        app:colorConstraintLayoutCornerRadius="20"
+        app:colorConstraintLayoutStrokeColor="accent_color"
+        app:colorConstraintLayoutStrokeWidth="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.rysanek.customviews.ColorTextView
+            android:id="@+id/tvClockInOutStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Clocked In"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.rysanek.customviews.ColorTextView
+            android:id="@+id/tvClockInTimeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Clock In Time:"
+            app:colorTextViewColor="accent_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvClockInOutStatus" />
+
+        <com.rysanek.customviews.ColorTextView
+            android:id="@+id/tvClockInTimeValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="32dp"
+            app:colorTextViewColor="button_bg_color"
+            app:layout_constraintBottom_toBottomOf="@+id/tvClockInTimeLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvClockInTimeLabel"
+            app:layout_constraintTop_toTopOf="@+id/tvClockInTimeLabel"
+            tools:text="8:00AM" />
+
+    </com.rysanek.customviews.ColorConstraintLayout>
+
+    <com.rysanek.customviews.ColorButton
+        android:id="@+id/btClockInOut"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="Clock In/Out"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btLogOut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.rysanek.customviews.ColorButton
+        android:id="@+id/btLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="Log Out"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:colorButtonRippleAlpha="50"
+        app:colorButtonRippleColor="accent_color"
+        app:colorButtonStyle="outlined_rounded"
+        app:colorButtonTextColor="accent_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</com.rysanek.customviews.ColorConstraintLayout>

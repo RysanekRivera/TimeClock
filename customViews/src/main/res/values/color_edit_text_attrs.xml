@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorEditText">
+        <attr name="colorEditTextTextColor" format="integer">
+            <flag name="background_color" value="1"/>
+            <flag name="accent_color" value="2"/>
+            <flag name="button_bg_color" value="3"/>
+            <flag name="button_text_color" value="4"/>
+            <flag name="primary_text_color" value="5"/>
+            <flag name="error_color" value="6"/>
+            <flag name="white" value="7"/>
+            <flag name="black" value="8"/>
+            <flag name="transparent" value="9"/>
+        </attr>
+        <attr name="colorEditTextUnderlineColor" format="integer">
+            <flag name="background_color" value="1"/>
+            <flag name="accent_color" value="2"/>
+            <flag name="button_bg_color" value="3"/>
+            <flag name="button_text_color" value="4"/>
+            <flag name="primary_text_color" value="5"/>
+            <flag name="error_color" value="6"/>
+            <flag name="white" value="7"/>
+            <flag name="black" value="8"/>
+            <flag name="transparent" value="9"/>
+        </attr>
+        <attr name="colorEditTextSelectedHandleColor" format="integer">
+            <flag name="background_color" value="1"/>
+            <flag name="accent_color" value="2"/>
+            <flag name="button_bg_color" value="3"/>
+            <flag name="button_text_color" value="4"/>
+            <flag name="primary_text_color" value="5"/>
+            <flag name="error_color" value="6"/>
+            <flag name="white" value="7"/>
+            <flag name="black" value="8"/>
+            <flag name="transparent" value="9"/>
+        </attr>
+        <attr name="colorEditTextCursorColor" format="integer">
+            <flag name="background_color" value="1"/>
+            <flag name="accent_color" value="2"/>
+            <flag name="button_bg_color" value="3"/>
+            <flag name="button_text_color" value="4"/>
+            <flag name="primary_text_color" value="5"/>
+            <flag name="error_color" value="6"/>
+            <flag name="white" value="7"/>
+            <flag name="black" value="8"/>
+            <flag name="transparent" value="9"/>
+        </attr>
+        <attr name="colorEditTextHighlightColor" format="integer">
+            <flag name="background_color" value="1"/>
+            <flag name="accent_color" value="2"/>
+            <flag name="button_bg_color" value="3"/>
+            <flag name="button_text_color" value="4"/>
+            <flag name="primary_text_color" value="5"/>
+            <flag name="error_color" value="6"/>
+            <flag name="white" value="7"/>
+            <flag name="black" value="8"/>
+            <flag name="transparent" value="9"/>
+        </attr>
+        <attr name="colorEditTextHintTextColor" format="integer">
+            <flag name="background_color" value="1"/>
+            <flag name="accent_color" value="2"/>
+            <flag name="button_bg_color" value="3"/>
+            <flag name="button_text_color" value="4"/>
+            <flag name="primary_text_color" value="5"/>
+            <flag name="error_color" value="6"/>
+            <flag name="white" value="7"/>
+            <flag name="black" value="8"/>
+            <flag name="transparent" value="9"/>
+        </attr>
+        <attr name="colorEditTextHighlightColorAlpha" format="integer"/>
+        <attr name="colorEditTextHinTextAlpha" format="integer"/>
+        <attr name="colorEditTextCornerRadius" format="float"/>
+    </declare-styleable>
+</resources>

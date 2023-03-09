@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorConstraintLayout">
+        <attr name="colorConstraintLayoutBackgroundAlpha" format="integer"/>
+        <attr name="colorConstraintLayoutBackgroundColor" format="integer">
+            <flag name="background_color" value="1"/>
+            <flag name="accent_color" value="2"/>
+            <flag name="button_bg_color" value="3"/>
+            <flag name="button_text_color" value="4"/>
+            <flag name="primary_text_color" value="5"/>
+            <flag name="error_color" value="6"/>
+            <flag name="white" value="7"/>
+            <flag name="black" value="8"/>
+            <flag name="transparent" value="9"/>
+        </attr>
+        <attr name="colorConstraintLayoutStrokeWidth" format="integer"/>
+        <attr name="colorConstraintLayoutCornerRadius" format="float"/>
+        <attr name="colorConstraintLayoutStrokeColor" format="integer">
+            <flag name="background_color" value="1"/>
+            <flag name="accent_color" value="2"/>
+            <flag name="button_bg_color" value="3"/>
+            <flag name="button_text_color" value="4"/>
+            <flag name="primary_text_color" value="5"/>
+            <flag name="error_color" value="6"/>
+            <flag name="white" value="7"/>
+            <flag name="black" value="8"/>
+            <flag name="transparent" value="9"/>
+        </attr>
+
+    </declare-styleable>
+</resources>

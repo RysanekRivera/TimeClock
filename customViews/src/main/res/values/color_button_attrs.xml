@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorButton">
+        <attr name="colorButtonBackgroundColor" format="integer">
+            <flag name="background_color" value="1"/>
+            <flag name="accent_color" value="2"/>
+            <flag name="button_bg_color" value="3"/>
+            <flag name="button_text_color" value="4"/>
+            <flag name="primary_text_color" value="5"/>
+            <flag name="error_color" value="6"/>
+            <flag name="white" value="7"/>
+            <flag name="black" value="8"/>
+            <flag name="transparent" value="9"/>
+        </attr>
+        <attr name="colorButtonTextColor" format="integer">
+            <flag name="background_color" value="1"/>
+            <flag name="accent_color" value="2"/>
+            <flag name="button_bg_color" value="3"/>
+            <flag name="button_text_color" value="4"/>
+            <flag name="primary_text_color" value="5"/>
+            <flag name="error_color" value="6"/>
+            <flag name="white" value="7"/>
+            <flag name="black" value="8"/>
+            <flag name="transparent" value="9"/>
+        </attr>
+        <attr name="colorButtonStrokeColor" format="integer">
+            <flag name="background_color" value="1"/>
+            <flag name="accent_color" value="2"/>
+            <flag name="button_bg_color" value="3"/>
+            <flag name="button_text_color" value="4"/>
+            <flag name="primary_text_color" value="5"/>
+            <flag name="error_color" value="6"/>
+            <flag name="white" value="7"/>
+            <flag name="black" value="8"/>
+            <flag name="transparent" value="9"/>
+        </attr>
+        <attr name="colorButtonRippleColor" format="integer">
+            <flag name="background_color" value="1"/>
+            <flag name="accent_color" value="2"/>
+            <flag name="button_bg_color" value="3"/>
+            <flag name="button_text_color" value="4"/>
+            <flag name="primary_text_color" value="5"/>
+            <flag name="error_color" value="6"/>
+            <flag name="white" value="7"/>
+            <flag name="black" value="8"/>
+            <flag name="transparent" value="9"/>
+        </attr>
+        <attr name="colorButtonBackgroundAlpha" format="integer"/>
+        <attr name="colorButtonRippleAlpha" format="integer"/>
+        <attr name="colorButtonStrokeWidth" format="integer"/>
+        <attr name="colorButtonCornerRadius" format="float"/>
+        <attr name="colorButtonStyle" format="flags">
+            <flag name="normal_rounded" value="1"/>
+            <flag name="normal_squared" value="2"/>
+            <flag name="outlined_rounded" value="3"/>
+            <flag name="outlined_squared" value="4"/>
+        </attr>
+    </declare-styleable>
+</resources>

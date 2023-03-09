@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rysanek.customviews.ColorConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.LoginFragment">
+
+    <com.rysanek.customviews.ColorTextView
+        android:id="@+id/colorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Log In"
+        android:textSize="20dp"
+        app:colorTextViewColor="accent_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.rysanek.customviews.ColorTextView
+        android:id="@+id/colorTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Email"
+        android:textSize="16dp"
+        app:colorTextViewColor="accent_color"
+        app:layout_constraintBottom_toTopOf="@+id/clEmail"
+        app:layout_constraintStart_toStartOf="@+id/clEmail"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.rysanek.customviews.ColorTextView
+        android:id="@+id/colorTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="4dp"
+        android:text="Password"
+        android:textSize="16dp"
+        app:colorTextViewColor="accent_color"
+        app:layout_constraintBottom_toTopOf="@+id/clPassword"
+        app:layout_constraintStart_toStartOf="@+id/clPassword"
+        app:layout_constraintTop_toBottomOf="@+id/clEmail" />
+
+    <com.rysanek.customviews.ColorConstraintLayout
+        android:id="@+id/clEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:colorConstraintLayoutCornerRadius="20"
+        app:colorConstraintLayoutStrokeColor="accent_color"
+        app:colorConstraintLayoutStrokeWidth="5"
+        app:layout_constraintBottom_toTopOf="@+id/colorTextView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorTextView2">
+
+        <com.rysanek.customviews.ColorEditText
+            android:id="@+id/edtEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            app:colorEditTextHintTextColor="button_bg_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </com.rysanek.customviews.ColorConstraintLayout>
+
+    <com.rysanek.customviews.ColorConstraintLayout
+        android:id="@+id/clPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:colorConstraintLayoutCornerRadius="20"
+        app:colorConstraintLayoutStrokeColor="accent_color"
+        app:colorConstraintLayoutStrokeWidth="5"
+        app:layout_constraintBottom_toTopOf="@+id/btLogIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorTextView3">
+
+        <com.rysanek.customviews.ColorEditText
+            android:id="@+id/edtPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </com.rysanek.customviews.ColorConstraintLayout>
+
+    <com.rysanek.customviews.ColorButton
+        android:id="@+id/btLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</com.rysanek.customviews.ColorConstraintLayout>
